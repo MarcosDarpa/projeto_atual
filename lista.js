@@ -1,6 +1,6 @@
 console.log(`Trabalhando com listas`);
 var destino = ['Salvador', ' São Paulo', ' Rio de Janeiro']; //Desta Forma a lista é impressa sem 
-console.log(`${destino}`);                                   // os colchetes e virgulas
+console.log(`${destino}`); //interpolação                         // os colchetes e virgulas
 
 /*const listaDedestino = new Array ( // Desta forma a lista é impressa com os colchetes e virgula
     `Salvador`,
