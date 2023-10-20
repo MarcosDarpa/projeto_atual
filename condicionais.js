@@ -2,19 +2,16 @@ console.log(`Trabalhando com condicionais`);
 var destino = ['Salvador', ' São Paulo', ' Rio de Janeiro']; 
 console.log(`${destino}`);                        
 
+const idade = 17;
+const Acompanhada = true;
 
-
-destino.push("Curitiba"); 
-
-const idadeComprador = 15
-console.log("Destinos possíveis:");
-console.log(destino);
-
-if (idadeComprador >= 18); {
-    console.log("Comprador maior de idade")
+if (idade >= 18 && Acompanhada == true ) {
+    console.log("Comprador maior de idade");
+    destino.splice(2.1); // remove item
+}else{
+    console.log("Não é maior e não posso vender");
 }
 
-destino.splice(2, 1); 
-console.log(destino);
 
-console.log(destino[1]); 
+
+console.log(destino); 
